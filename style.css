@@ -1,0 +1,30 @@
+#slide-reel {
+	width: 1650px;
+	height: 367px;
+}
+
+#slide-framer {
+	width: 550px;
+	height: 367px;
+	position: relative;
+	overflow: hidden;
+}
+
+.slide {
+	float: left;
+	overflow: auto;
+}
+
+#slide-control{
+	position: absolute;
+	top: 400px;
+}
+
+/*  ul.news-slides{ display: block; position: absolute; top: 0; left: 0; width: 1650px; height: 367px; margin: 0; padding: 0; }
+  ul.news-slides li { float: left; display: inline; margin: 0; padding: 0; list-style: none; }
+  .caption { background: url(../img/bg-white.png) repeat 0 0 transparent; position: absolute; bottom: 0; left: 0; width: 520px; padding: 10px; }
+  .caption strong { font-style: normal; }
+  .slide-control { position: absolute; right: 20px; bottom: 20px; display: block; }
+  .slide-control a { float: left; display: block; background-color: #1B55A8; margin: 0 5px; text-indent: -9000px; height: 10px; width: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
+  .slide-control a:hover { background-color: #D5E05B; }
+*/
